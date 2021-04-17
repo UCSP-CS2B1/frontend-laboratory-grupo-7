@@ -13,7 +13,6 @@
 - Dayevska Anabel Caceres Budiel (201-10-47457)
 - Roberto Juan Cayro Cuadros (201-10-47988)
 - Sergio Leandro Ramos Villena (201-10-47800)
-- Name and surname (Student ID)
 
 ---
 
