@@ -1,3 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*Place your style sheet content here, you already have Poppins font imported*/
+body{background-color: whitesmoke;
+   
+}
+
+#Titulo{
+    color: white;
+    margin: 0 auto;
+    background-color: rgb(12, 137, 146);
+    width : 300 px;
+    height: 50 px;
+    padding-block: 10px;
+    text-align: center;
+    
+    font-size: 15 px;
+    font-style: italic;
+    
+    }
+.Integrantes{
+    display: inline-grid;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Botones{
+
+    margin: 0 auto;
+    
+}
+
+
+#Cuerpo_general{
+    margin: 0 auto;
+}   
+
+
+
