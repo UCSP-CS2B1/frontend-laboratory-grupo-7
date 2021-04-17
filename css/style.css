@@ -5,6 +5,19 @@ body {
     margin: 0;
     font-family: "poppins";
 }
+#Titulo{
+    color: white;
+    margin: 0 auto;
+    background-color: rgb(12, 137, 146);
+    width : 300 px;
+    height: 50 px;
+    padding-block: 10px;
+    text-align: center;
+    
+    font-size: 15 px;
+    font-style: italic;
+    
+    }
 
 /*Login section style*/
 
