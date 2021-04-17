@@ -79,7 +79,38 @@ div#izquierda{
     padding: 3%;
 }
 
+/*Navbar*/
 
+.navbar {
+     background: white;
+    padding: 1em;
+        place-content: space-between;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: unset;
+}
+.navbar a {
+    text-decoration: none;
+    color: #41A4B6; 
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar nav {
+    display: block;
+    justify-content: space-between;
+}
+.navbar nav ul {
+    display: block;
+}
+.navbar nav a {
+    font-size: 1em;
+    padding: 0em 1em;
+}
 /* nav drawer*/
 .header{
     width: 90%;
