@@ -9,7 +9,7 @@
 
 **Members:**
 
-- Name and surname (Student ID)
+- Gabriel Alexander Valdivia Medina - 201-10-47904
 - Dayevska Anabel Caceres Budiel (201-10-47457)
 - Roberto Juan Cayro Cuadros (201-10-47988)
 - Sergio Leandro Ramos Villena (201-10-47800)
