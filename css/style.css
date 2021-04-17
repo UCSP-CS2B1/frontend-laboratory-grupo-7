@@ -1,39 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/*Place your style sheet content here, you already have Poppins font imported*/
-body{background-color: whitesmoke;
-   
+body {
+    background: #D3E9E9;
+    margin: 0;
+    font-family: "poppins";
 }
 
-#Titulo{
-    color: white;
-    margin: 0 auto;
-    background-color: rgb(12, 137, 146);
-    width : 300 px;
-    height: 50 px;
-    padding-block: 10px;
-    text-align: center;
-    
-    font-size: 15 px;
-    font-style: italic;
-    
+/*Login section style*/
+
+section {
+    padding: 2em;
+}
+
+div#general {
+    background: #D3E9E9;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin: 4.5%;
+    width: 90%;
+    height: 95%
+}
+
+div#derecha {
+    text-align: right;
+    color: #41A4B6;
+    background-color: #FFFFFF;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin: 1%;
+    float: right;
+    width: 40%;
+    height: 35.5%;
+    border-radius: 0.25em;
+    padding: 3%;
+}
+div#izquierda{
+    text-align: right;
+    color: #41A4B6;
+    background-color: #FFFFFF;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin: 1%;
+    float: left;
+    width: 40%;
+    height: 35.5%;
+    border-radius: 0.25em;
+    padding: 3%;
+}
+.foto { 
+    padding: 1%; 
+    margin: 0.5%; 
+    float: left;
+    width: 45%;
+    height:45%;
+    border-radius:150px;
+}
+
+/* nav drawer*/
+.header{
+    width: 90%;
+    max-width: 100px; 
+    margin: 20px auto; 
+    width: 100%; 
+}
+
+.header nav{
+    width: 100%; 
+    cursor: pointer;
+    margin-right: 2rem;
+    background-color: #FFFFFF;
+}
+
+.menu{
+    display: none;
+}
+
+.header nav ul {
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.header nav ul li {
+    float:left;
+}
+
+.header nav ul li a{
+    color: #41A4B6;
+    padding: 20px;
+    display: block;
+    text-decoration: auto;
+}
+.header nav ul li span{
+    margin-right: 10px;
+}
+.header nav ul li a:hover{
+    background-color: #FFFFFF;
+}
+
+section{
+    padding: 20px;
+}
+
+@media screen and(max-widht:800px) {
+    header nav {
+          height: 100%;
+          width: 30%;
+          left: -100%;
+          margin:0;
+          position: fixed;
     }
-.Integrantes{
-    display: inline-grid;
-    flex-direction: column;
-    align-items: center;
-}
 
-.Botones{
+    header nav ul li {
+          display: block;
+          float:none;
+          border-bottom:1px solid #41A4B6;
+    }
 
-    margin: 0 auto;
-    
-}
+    .menu {
+          display: block;
+          width: 100%;
+          background-color: #41A4B6;
+    }
 
-
-#Cuerpo_general{
-    margin: 0 auto;
-}   
-
-
-
+    .menu.bt-menu {
+          display: block;
+          padding: 20px;
+          width: 100%;
+          background: #41A4B6;
+          color: #41A4B6;
+          text-decoration: auto;
+    }
+} 
