@@ -16,37 +16,63 @@ function insertion_sort(numbers) {
 
 }
 
+
 // Param number: single integer
 // Returns a single integer
 function factorial(number) {
 
-    var total = 1; 
-	for (i=1; i<=number; i++) {
-		total = total * i; 
-	}
-	return total; 
+    var x =1;
+    
+    var number = document.getElementById("numero").value;
+    while (number > 1){
+        x = x * number;
+        number = number-1;
+
+    }
+
+   document.getElementById("boton_fc").innerHTML = x;
+
+   return x;
 }
+
+
 
 // Param number: single integer
 // Returns a single integer
 function fibonacci(number) {
-    let number=[0,1];
-    for (let i = 2; i < number; i++) {
-        number[i] = number[i - 2] + number[i - 1];
+
+    var x=1;
+    
+    var y=0;
+    var z=1;
+    var r=0;
+ 
+    var number = document.getElementById("numero3").value;
+ 
+    while(x < number){
+        r =y+z;
+        y=z;
+        z=r;
+        x=x+1;
     }
-    return number;
+    
+
+    document.getElementById("resultado_fb").innerHTML = r;
+
+    return r;
 }
 
 // Param expression: string containing a mathematical expression
 // Returns an integer value
 function evaluation(expression) {
-    var x = new String("2");
-    var y = new String("5");
+    var expression =document.getElementById("operacion").value;
 
-    var z = x+y;
-    expression.charAt(1);
+    
 
-    return z
+    var x = eval(text);
+    
+
+    return x;
 }
 
 
