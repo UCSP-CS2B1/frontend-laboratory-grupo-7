@@ -47,7 +47,7 @@ function fibonacci(number) {
     var z=1;
     var r=0;
  
-    var number = document.getElementById("numero3").value;
+    var number = document.getElementById("numero_2").value;
  
     while(x < number){
         r =y+z;
@@ -65,11 +65,11 @@ function fibonacci(number) {
 // Param expression: string containing a mathematical expression
 // Returns an integer value
 function evaluation(expression) {
-    var expression =document.getElementById("operacion").value;
+    var expression =document.getElementById("expression").value;
 
     
 
-    var x = eval(text);
+    var x = eval(expression);
     
 
     return x;
