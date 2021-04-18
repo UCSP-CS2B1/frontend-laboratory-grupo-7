@@ -7,23 +7,34 @@
     </head>
 
     <body>
-           <div id="Titulo">
+
+
+        
+    <div class="todo">
+       <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+            <div id="Titulo">
             <h2>Frontend Project</h2>
+            </div>
+
         </div>
-    <div class="navbar">
+        </header>
+   
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="index.html" >Team</a>
+                    <a href="pages/index2.html" >Algoritmos</a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+            </div>
+        </div>
 
-        <nav>
-           <ul class='left.navigation'>
-              <li><a href="index.html" >Team</a></li>
-              <li><a href="pages/index2.html" >Algoritmos</a></li>
-           </ul>
-        </nav>
-    
-    </div>
-
-
-
-        <div id="general">
+        <div id="general" class="generalito">
           <div id="izquierda">
              <form method="post">
                 <p>
@@ -43,7 +54,7 @@
            <div id="izquierda">
               <form method="post">
                 <p>
-                   <img class="foto" src="images/valdi.png" >
+                   <img class="foto" src="images/Sergio.jpeg" >
                    <label> Sergio Leandro Ramos Villena  </label>
                 </p>
               </form>
@@ -58,8 +69,8 @@
            </div>
        </div>
 
-
-      <script src="http://code.jquery.com/jquery-latest.js"></script >
-      <script src="frontend-laboratory-grupo-7/javascript/scripts.js"></script >
+</div>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="frontend-laboratory-grupo-7/javascript/scripts.js"></script>
     </body>
 </html>
