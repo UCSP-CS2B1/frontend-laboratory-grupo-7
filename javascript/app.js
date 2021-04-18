@@ -30,9 +30,9 @@ function factorial(number) {
 
     }
 
-   document.getElementById("boton_fc").innerHTML = x;
+   document.getElementById("boton_fl").innerHTML = x;
 
-   return x;
+   //return x;
 }
 
 
@@ -47,7 +47,7 @@ function fibonacci(number) {
     var z=1;
     var r=0;
  
-    var number = document.getElementById("numero3").value;
+    var number = document.getElementById("numero_2").value;
  
     while(x < number){
         r =y+z;
@@ -59,20 +59,22 @@ function fibonacci(number) {
 
     document.getElementById("resultado_fb").innerHTML = r;
 
-    return r;
+    //return r;
 }
 
 // Param expression: string containing a mathematical expression
 // Returns an integer value
 function evaluation(expression) {
-    var expression =document.getElementById("operacion").value;
+    var expression =document.getElementById("expression").value;
 
     
 
-    var x = eval(text);
+    var x = eval(expression);
+
+    document.getElementById("resultado_ev").innerHTML = x;
     
 
-    return x;
+    //return x;
 }
 
 

@@ -40,8 +40,13 @@
              <form method="post">
                 <label>Insertion Sort</label>
                 <label>Array of numbers: </label><br></br>
-                <input type="text" placeholder="Comma separated numbers" required/>
-                <input type="submit" value="insertion sort">
+
+
+                <input type="numbers" id="numeros">
+                <input type="button" id="boton_s" value="inserion_sort" onclick="insertion_sort(numeros)">
+
+
+
                 <label>Result goes here</label>
              </form>
            </div>
@@ -55,8 +60,8 @@
                 
                 <input type="number" id="numero">
 
-                <input type="button" id="boton_fc" value="factorial" onclick="document.writeln(factorial(numero))">
-                <p id="boton_fc"></p>
+                <input type="button" id="boton_fc" value="factorial" onclick="factorial(numero)">
+                <p id="boton_fl"></p>
 
                 
 
@@ -72,9 +77,9 @@
                  
                  
 
-                 <input type="number" id="numero_2">
-                 <input type="button" id="boton_fc" value="fibonacci" onclick="fibonacci(numero_2)">
-                 <p id="resultado_fb"></p>
+                <input type="number" id="numero_2">
+                <input type="button" id="boton_fc" value="fibonacci" onclick="fibonacci(numero_2)">
+                <p id="resultado_fb"></p>
 
 
 
@@ -88,11 +93,11 @@
                  <label>write any mathematical expression: </label> <br></br>
 
 
-                 <input type="text" id="expresion">
+                 <input type="text" id="expression">>
 
-                 <input type="button" id="boton_fc" value="evaluation" onclick="document.writeln(evaluation(expresion))">
+                 <input type="button" id="boton_fc" value="evaluation" onclick="evaluation(expression)">
 
-                 <p id="resutlado_ev"></p>
+                 <p id="resultado_ev"></p>
 
 
 
