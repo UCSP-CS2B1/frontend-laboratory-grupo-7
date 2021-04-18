@@ -114,9 +114,8 @@ div#izquierda{
 		width: 100%;
 		max-width: 250px;
 		background: #004275;
-		height: 100vh;
+		height: 116%;
 		position: relative;
-
 		transform: translateX(-100%);
 	}
 	#btn-menu:checked ~ .general{

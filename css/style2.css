@@ -21,10 +21,6 @@ body {
     }
 /*Login section style*/
 
-section {
-    padding: 2em;
-}
-
 input {
     width: 100%;
     padding: 1em;
@@ -80,10 +76,6 @@ div#izquierda{
 }
 
 
-section{
-    padding: 20px;
-}
-
 	/*Estilos para el encabezado*/
 	.header{
 		width: 100%;
@@ -131,11 +123,10 @@ section{
 	}
 	.cont-menu{
 		width: 100%;
+		height: 135%;
 		max-width: 250px;
 		background: #004275;
-		height: 100vh;
 		position: relative;
-
 		transform: translateX(-100%);
 	}
 	#btn-menu:checked ~ .general{
