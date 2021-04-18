@@ -5,24 +5,19 @@ body {
     margin: 0;
     font-family: "poppins";
 }
-#Titulo{
+div#Titulo{
     color: white;
     margin: 0 auto;
     width : 300 px;
     height: 50 px;
     padding-block: 10px;
     text-align: center;
-    
     font-size: 15 px;
     font-style: italic;
     
     }
 
 /*Login section style*/
-
-section {
-    padding: 2em;
-}
 .generalito {
      margin-top: 16%;
 }
@@ -69,10 +64,6 @@ div#izquierda{
     height:45%;
     border-radius:150px;
 }
-section{
-    padding: 20px;
-}
-
 
 	/*Estilos para el encabezado*/
 	.header{
@@ -134,6 +125,7 @@ section{
 	#btn-menu:checked ~ .container-menu .cont-menu{
 		transform: translateX(0%);
 	}
+	
 	.cont-menu nav{
 		transform: translateY(35%);
 	}
@@ -155,8 +147,8 @@ section{
 		cursor: pointer;
 		font-size: 18px;
 	}
+	
 
-}
 
 
 
