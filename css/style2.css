@@ -9,15 +9,12 @@ body {
 #Titulo{
     color: white;
     margin: 0 auto;
-    background-color: rgb(12, 137, 146);
-    width : 300 px;
-    height: 50 px;
-    padding-block: 10px;
+    /*width : 300 px;*/
+    padding-block: 11px;
     text-align: center;
-    
-    font-size: 15 px;
+    font-size: 2vmax;
     font-style: italic;
-    
+	font-weight: bold;
     }
 /*Login section style*/
 
@@ -54,20 +51,17 @@ div#derecha {
     text-align: left;
     color: #41A4B6;
     background-color: #FFFFFF;
-    margin-top: 7%;
-    margin-bottom: 7%;
     margin: 4.5%;
     float: right;
     width: 35%;
     border-radius: 0.5em;
     padding: 3%;
 }
+
 div#izquierda{
     text-align: left;
     color: #41A4B6;
     background-color: #FFFFFF;
-    margin-top: 7%;
-    margin-bottom: 7%;
     margin: 4.5%;
     float: left;
     width: 35%;
@@ -79,7 +73,7 @@ div#izquierda{
 	/*Estilos para el encabezado*/
 	.header{
 		width: 100%;
-		height: 100px;
+		height: 5vmax;
 		position: fixed;
 		top: 0;left: 0;
         background-color: rgb(12, 137, 146);
@@ -122,10 +116,10 @@ div#izquierda{
 		visibility: visible;
 	}
 	.cont-menu{
-		width: 100%;
+		width: 23vmax;
 		height: 135%;
 		max-width: 250px;
-		background: #004275;
+		background: #0c8992;
 		position: relative;
 		transform: translateX(-100%);
 	}
@@ -146,7 +140,13 @@ div#izquierda{
 		border-left: 5px solid transparent;
 	}
 	.cont-menu nav a:hover{
-		background: #003240;
+		background: #3B91A8;
+	}
+	.container .btn-menu label{/*Acceder al icono de Menu*/
+		font-size: 2.5vmax;
+	}
+	.container .btn-menu, .Titulo{ /*Acceder al tamaño entre el top y el icono de menu*/
+		line-height: 4.5vmax;
 	}
 	.cont-menu label{
 		position: absolute;
