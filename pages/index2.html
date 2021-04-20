@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Frontend Project </title>
+        <link rel="stylesheet" href="../css/style2.css">
+        <script src='../javascript/app.js'></script>
+        
+        
+     </head>
+
+    <body>
+       <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+            <div id="Titulo">
+            Frontend Project
+            </div>
+
+        </div>
+        </header>
+
+   
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+              <a href="../index.html" >Team</a>
+              <a href="index2.html" >Algoritmos</a>
+              </nav>
+                <label for="btn-menu">✖️</label>
+            </div>
+        </div>
+ 
+
+        <div id="general">
+          <div id="izquierda">
+             <form method="post">
+                <label>Insertion Sort</label>
+                <label>Array of numbers: </label><br></br>
+
+
+                <input type="numbers" id="numeros">
+                <input type="button" id="boton_s" value="inserion_sort" onclick="insertion_sort(numeros)">
+                <p></p>
+
+
+                <label>Result goes here</label>
+             </form>
+           </div>
+
+            
+           <div id="derecha">
+             <form method="post">
+                <label>Factorial</label>
+                <label>Number (between 1 and 6): </label><br></br>
+
+                
+                <input type="number" id="numero">
+
+                <input type="button" id="boton_fc" value="factorial" onclick="factorial(numero)">
+                <p id="boton_fl"></p>
+
+                
+
+                <label>Result goes here</label>
+             </form>
+           </div>
+
+           <div id="izquierda">
+              <form method="post">
+                 <label>Fibonacci</label>
+                 <label>Choose a number: </label><br></br>
+                 
+                 
+
+                <input type="number" id="numero_2">
+                <input type="button" id="boton_fc" value="fibonacci" onclick="fibonacci(numero_2)">
+                <p id="resultado_fb"></p>
+
+
+
+                 <label>Result goes here</label>
+              </form>
+            </div>
+            <div id="derecha">
+              <form method="post">
+                 <label>Evaluation</label>
+                 <label>write any mathematical expression: </label> <br></br>
+
+
+                 <input type="text" id="expression">
+
+                 <input type="button" id="boton_fc" value="evaluation" onclick="evaluation(expression)">
+
+                 <p id="resultado_ev"></p>
+
+
+
+                 <label>Result goes here</label>
+              </form>
+           </div>
+       </div>
+
+
+      
+      
+    </body>
+</html>
